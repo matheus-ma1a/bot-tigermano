@@ -25,7 +25,7 @@ function presinal() {
 
 `, { disable_web_page_preview: true, parse_mode: 'HTML' })
     primeiraMsg()
-  }, 12000)
+  }, 120000)
 }
 
 function primeiraMsg() {
@@ -53,7 +53,7 @@ function primeiraMsg() {
 `,
       { parse_mode: "HTML", disable_notification: false, disable_web_page_preview: true })
     SegundaMsg()
-  }, 18000)
+  }, 180000)
 }
 
 function SegundaMsg() {
@@ -74,7 +74,7 @@ function SegundaMsg() {
 
 `, { parse_mode: "HTML", disable_notification: false, disable_web_page_preview: true })
     presinal()
-  }, 36000);
+  }, 360000);
 }
 
 function horaMinutos() {
